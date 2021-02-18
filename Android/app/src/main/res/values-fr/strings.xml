@@ -2,7 +2,7 @@
 
   <!-- FOR CORRECTION -->
     <!-- There was an error here in the english version, the correct text is GPX Files and not GPX Tracks -->
-    <string name="manage_gpx_files">GPX Files</string>
+    <string name="manage_gpx_files">FIchier GPX</string>
     <!-- END FOR CORRECTION -->
     
     
@@ -165,7 +165,7 @@ allez dans le menu système de l'appareil pour régler la luminosité au maximum
 
 <!-- Roadbook -->
 
-<string name="tap_to_open_file">Appuie ici pour ouvrir un fichier</string>
+<string name="tap_to_open_file">Appuie ici pour ouvrir un Roadbook</string>
 <string name="select_instrument">Sélectionne un instrument</string>
 <string name="none_empty_instrument_desc">Aucun, masque la case</string>
 <string name="total_instrument_desc">Distance Totale</string>
@@ -181,29 +181,29 @@ allez dans le menu système de l'appareil pour régler la luminosité au maximum
 <string name="total_distance_title">Total</string>
 <string name="partial_distance_title">Partiel</string>
 <string name="chrono_paused">PAUSE</string>
-<string name="edit_instruments">Edition Instruments</string>
-<string name="total_options">Options pour Total</string>
-<string name="partial_options">Options pour Partiel</string>
-<string name="invert_paper_color">Intervertir la couleur de Papier</string>
+<string name="edit_instruments">Editer Instruments</string>
+<string name="total_options">Options Trip Total</string>
+<string name="partial_options">Options Trip Partiel</string>
+<string name="invert_paper_color">Inverser couleur Roadbook</string>
 <string name="reset_all_instruments">RaZ tout Instruments</string>
 <string name="total_distance_edit_title">Distance Totale</string>
-<string name="total_distance_message"> Appuyer pour éditer la valeur de Distance totale:</string>
+<string name="total_distance_message"> Appuyer pour éditer la distance totale:</string>
 <string name="partial_distance_edit_title">Distance Partielle</string>
-<string name="partial_distance_message"> Appuyer pour éditer la valeur de Distance Partielle:</string>
+<string name="partial_distance_message"> Appuyer pour éditer la distance Partielle:</string>
 <string name="total_options_dialog_title">Distance Totale</string>
 <string name="total_options_dialog_message">Options disponibles pour la Distance Totale:</string>
-<string name="total_options_reset_button">Valeur de RaZ</string>
-<string name="total_options_input_button">Valeur d’entrée</string>
-<string name="total_options_decimals_button">Decimal Places</string>
+<string name="total_options_reset_button">RaZ</string>
+<string name="total_options_input_button">Changer la Valeur</string>
+<string name="total_options_decimals_button">Valeur décimale</string>
 <string name="total_decimals_dialog_title">Total – Choix de la Décimale</string>
 <string name="total_decimals_dialog_message">Choisi le nombre de décimales pour le Trip Total:</string>
 <string name="total_decimals_dialog_one_button">Une (0.0)</string>
 <string name="total_decimals_dialog_two_button">Deux (0.00)</string>
 <string name="partial_options_dialog_title">Distance Partielle</string>
 <string name="partial_options_dialog_message">Options disponibles pour la Distance Partielle:</string>
-<string name="partial_options_reset_button">Valeur de RaZ</string>
-<string name="partial_options_input_button">Valeur d’entrée</string>
-<string name="partial_options_decimals_button">Decimal Places</string>
+<string name="partial_options_reset_button">RaZ</string>
+<string name="partial_options_input_button">Changer la Valeur</string>
+<string name="partial_options_decimals_button">Valeur décimale</string>
 <string name="partial_decimals_dialog_title">Partiel - Choix de la Décimale</string>
 <string name="partial_decimals_dialog_message">Choisi le nombre de décimales pour le Trip Partiel:</string>
 <string name="partial_decimals_dialog_one_button">Une (0.0)</string>
@@ -212,7 +212,7 @@ allez dans le menu système de l'appareil pour régler la luminosité au maximum
 <string name="controller_lock_mode">Mode verrouillage Controller</string>
 <string name="controller_lock_mode_enabled">Mode verrouillage Controller Actif</string>
 <string name="controller_lock_mode_disabled">Mode verrouillage Controller Inactif</string>
-<string name="roadbook_controller_setup_cat_title">Configuration des boutons CARPE Controller</string>
+<string name="roadbook_controller_setup_cat_title">Configuration des boutons CARPE Controller (CI Controller / Terrain Command)</string>
 <string name="roadbook_controller_button_up">Joystick Haut / Terrain Haut</string>
 <string name="roadbook_controller_button_down">Joystick Bas / Terrain Bas</string>
 <string name="roadbook_controller_button_left">Joystick Gauche / Terrain Gauche</string>
@@ -263,12 +263,12 @@ allez dans le menu système de l'appareil pour régler la luminosité au maximum
 <string name="asia">Asie</string>
 <string name="africa">Afrique</string>
 <string name="download">Télécharger</string>
-<string name="downloading_map">Téléchargement de la carte pour</string>
+<string name="downloading_map">Téléchargement de la carte</string>
 <string name="downloading_poi">Téléchargement de POI additionnels</string>
-<string name="starting_download">Départ du téléchargement…</string>
+<string name="starting_download">Lancement du téléchargement…</string>
 <string name="seconds">secondes</string>
 <string name="minutes">minutes</string>
-<string name="remaining">reste</string>
+<string name="remaining">restantes</string>
 <string name="load_map_switch">Toujours charger la carte: </string>
 <string name="map_type">Type de carte</string>
 <string name="map_type_title">Sélectionne le type de carte</string>
@@ -320,8 +320,8 @@ allez dans le menu système de l'appareil pour régler la luminosité au maximum
 <string name="select_app">Sélection Application</string>
 <string name="not_enough_space_title">ERREUR: PAS assez d’espace libre!</string>
 <string name="not_enough_space_progress_text">Tu dois libérer de l’espace de stockage</string>
-<string name="bad_map_detected_title">Mauvaise carte Détecté</string>
-<string name="bad_map_detected_message">Une carte corrompue a été détecté, le fichier a été supprimé, tu dois le télécharger à nouveaux. Le mauvais fichier est : </string>
+<string name="bad_map_detected_title">Mauvaise carte détectée</string>
+<string name="bad_map_detected_message">Une carte corrompue a été détecté, le fichier a été supprimé, tu dois retélécharger la carte. Le mauvais fichier est : </string>
 
 
 
